@@ -1,0 +1,18 @@
+
+d
+java:S2095Z"NUse try-with-resources or close this "FileOutputStream" in a "finally" clause.(Èùå
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(…•«¨
+`	java:S112,"FDefine and throw a dedicated exception instead of using a generic one.(²¯Üüÿÿÿÿ
+[	java:S112D"FDefine and throw a dedicated exception instead of using a generic one.(µ­úû
+y
+java:S1488-"^Immediately return this expression instead of assigning it to the temporary variable "result".(æÕ×Óûÿÿÿÿ
+y
+java:S1488F"^Immediately return this expression instead of assigning it to the temporary variable "result".(ÔôÊÔùÿÿÿÿ
+]	java:S125"<This block of commented-out lines of code should be removed.(·‡áÃşÿÿÿÿ8¬×óè¡/
+W
+java:S1854{"<Remove this useless assignment to local variable "fileSize".(¤¬°ñùÿÿÿÿ
+S	java:S106~"9Replace this use of System.out or System.err by a logger.(Ü°©ïûÿÿÿÿ
+N	java:S106"9Replace this use of System.out or System.err by a logger.(ÂÍ’ğ
+O	java:S106€"9Replace this use of System.out or System.err by a logger.(çÙ«»
+H
+java:S1481{"-Remove this unused "fileSize" local variable.(¤¬°ñùÿÿÿÿ

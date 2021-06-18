@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>bobo模板</title>
+</head>
+<body>
+    <h1 th:each="u:${list}">
+        <span th:text="${u.id}">xxx</span>
+        <span th:text="${u.name}">xxx</span>
+        <span th:text="${u.hobby}">xxx</span>
+        <br/>
+    </h1>
+</body>
+</html>

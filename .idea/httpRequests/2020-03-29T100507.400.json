@@ -1,0 +1,7 @@
+{
+  "timestamp": "2020-03-29T14:05:07.171+0000",
+  "status": 400,
+  "error": "Bad Request",
+  "message": "Required request body is missing: public int com.easygo.controller.AdminController.addLoginlog(com.easygo.pojo.Loginlog)",
+  "path": "/addLoginlog"
+}

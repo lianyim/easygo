@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="easygo-admin-service" />
+        <module name="easygo-protal-web" />
+        <module name="easygo-goods-service" />
+        <module name="easygo-ad-service" />
+        <module name="easygo-search-service" />
+        <module name="easygo-eureka" />
+        <module name="easygo-itemcat-service" />
+        <module name="easygo-specification-service" />
+        <module name="easygo-staticpage-service" />
+        <module name="easygo-typetemplate-service" />
+        <module name="easygo-users-service" />
+        <module name="easygo-pojo" />
+        <module name="easygo-brand-service" />
+        <module name="easygo-commons" />
+        <module name="easygo-admin" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="easygo-ad-service" options="-parameters" />
+      <module name="easygo-admin" options="-parameters" />
+      <module name="easygo-admin-service" options="-parameters" />
+      <module name="easygo-brand-service" options="-parameters" />
+      <module name="easygo-commons" options="-parameters" />
+      <module name="easygo-eureka" options="-parameters" />
+      <module name="easygo-goods-service" options="-parameters" />
+      <module name="easygo-itemcat-service" options="-parameters" />
+      <module name="easygo-pojo" options="-parameters" />
+      <module name="easygo-protal-web" options="-parameters" />
+      <module name="easygo-search-service" options="-parameters" />
+      <module name="easygo-specification-service" options="-parameters" />
+      <module name="easygo-staticpage-service" options="-parameters" />
+      <module name="easygo-typetemplate-service" options="-parameters" />
+      <module name="easygo-users-service" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,29 @@
+FILE_SERVER_URL: http://122.51.50.249:8080/
+eureka:
+    client:
+        service-url:
+            defaultZone: http://127.0.0.1:9001/eureka
+    instance:
+        instance-id: easygo-admin-web-9002
+        ip-address: 127.0.0.1
+        prefer-ip-address: true
+server:
+    port: 9002
+spring:
+    application:
+        name: easygo-admin-web
+    main:
+        allow-bean-definition-overriding: true
+    redis:
+        host: 127.0.0.1
+        jedis:
+            pool:
+                max-idle: 10
+                min-idle: 5
+        port: 6379
+    thymeleaf:
+        cache: false
+        encoding: utf-8
+        mode: LEGACYHTML5
+        prefix: classpath:/templates/
+        suffix: .html
